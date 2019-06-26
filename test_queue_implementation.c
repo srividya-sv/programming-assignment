@@ -102,6 +102,13 @@ void *consumer_dequeue_elements(void* consumer_id) {
   return (void *)0;
 }
 
+/*
+ * This routine is used by the producer to enqueue objects in the queue
+ * Enqueue in the head/tail of the queue , before an object / after an object in the queue
+ * are all tested here. 
+ * The queue can also be printed after the enqueue is done
+ */
+
 void enqueue_routine() {
 
     static int count = 0;
