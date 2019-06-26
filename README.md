@@ -18,5 +18,7 @@ The executable is 'test_queue_implementation', it can take the number of consume
 To run this code: 
 
 Git clone the project or download the project 
+
 #make
+
 #./test_queue_implementation
